@@ -18,19 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Learning 3D Deep Learning from Scratch, An Engineer's Perspective
+title: Learning 3D Deep Learning from Scratch
+author: "Shicheng (Luke) Xu"
 email: lightxuzju@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a software engineer that is interested to build 3D product with 3D deep learning.
-  To do that, I am going to take a naive approach to learn and build everything from scratch.
+  An engineer's perspective, by Shicheng (Luke) Xu
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://3ddl-eng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github: [metadata] # https://github.com/github/pages-gem/issues/399
 github_username: lightxu
 linkedin_username: shichengxu
 
 # Build settings
-theme: minima
+# https://github.com/pages-themes/hacker
+remote_theme: pages-themes/modernist@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
