@@ -21,3 +21,4 @@ References:
 * [Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/)
 * [Jekyll Posts: Tags and Categories](https://jekyllrb.com/docs/posts/#tags-and-categories)
 * [Adding a theme to your GitHub Pages site using Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
+* [Add comment via Utterances](https://utteranc.es/)
