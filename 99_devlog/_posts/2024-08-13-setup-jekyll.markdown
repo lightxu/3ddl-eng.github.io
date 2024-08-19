@@ -3,7 +3,6 @@ layout: post
 title:  "Setup Jekyll"
 author: "Shicheng (Luke) Xu"
 date:   2024-08-13
-tag:    jekyll
 ---
 
 Setting up Github Pages + Jekyll is quite straightforward, I am using WSL2 + Ubuntu for installing Jekyll. WSL doesn't open the port 4000 that Jekyll uses by default, instead, port 8080 works. Also, I will need to enable `--force-polling` so that the page gets refreshed when I reload in browser.
